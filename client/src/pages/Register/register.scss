@@ -1,0 +1,66 @@
+.registration-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    label {
+      display: block;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="password"],
+    input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    button[type="submit"] {
+      background-color: #2980b9;
+      color: #fff;
+    }
+
+    button[type="button"] {
+      background-color: #fff;
+      color: #2980b9;
+      border: 1px solid #2980b9;
+    }
+  }
+}
